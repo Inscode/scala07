@@ -12,10 +12,10 @@ object Q3 {
 
   }
   def filterPrime(numbers: List[Int]): List[Int] = {
-    numbers.filter(ChrckPrime)
+    numbers.filter(CheckPrime)
   }
 
-  def ChrckPrime(number: Int): Boolean = {
+  def CheckPrime(number: Int): Boolean = {
     if (number <= 1) {
       false
     } else if (number == 2) {
